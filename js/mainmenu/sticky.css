@@ -6,7 +6,7 @@ body{font:12px/28px ;}
 
 #trueHeader {
 	background: #fff;
-	width:1240px;
+	width:100%;
 	margin: 0 auto 0 auto;
 }
 
@@ -64,6 +64,7 @@ body{font:12px/28px ;}
 
 #trueHeader {
 	width:320px;
+	box-shadow: none;
 }
 .wrapper,#page{
 	width:320px;
