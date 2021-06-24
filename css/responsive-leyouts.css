@@ -2,11 +2,11 @@
 
 @media only screen and (min-width: 1000px) and (max-width: 1169px){
 .wrapper_boxed {
-	width: 1024px;
+	width: 100%;
 }
 
 .site_wrapper {
-	width: 1024px;
+	width: 100%;
 }
 
 .container {
@@ -507,11 +507,11 @@ ul.post_meta_links_small {
 @media only screen and (min-width: 480px) and (max-width: 767px){
 
 .wrapper_boxed {
-	width: 480px;
+	width: 100%
 }
 
 .site_wrapper {
-	width: 480px;
+	width: 100%
 }
 
 .container {
@@ -1108,6 +1108,13 @@ ul.adsbanner-list {
 	height: 270px;
 }
 
+.top_nav .right ul {
+	float: left;
+	width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 }
 
 
@@ -1117,11 +1124,11 @@ ul.adsbanner-list {
 @media only screen and (max-width: 479px){
 
 .wrapper_boxed {
-	width: 320px;
+	width: 100%;
 }
 
 .site_wrapper {
-	width: 320px;
+	width: 100%;
 }
 
 .container {
@@ -1191,7 +1198,11 @@ ul.adsbanner-list {
 }
 .top_nav .right ul {
 	float: left;
+	width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
+
 .top_nav .right li {
 	margin: 10px 5px 0px 0px;
 }
