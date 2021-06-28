@@ -63,11 +63,11 @@ body{font:12px/28px ;}
 }
 
 #trueHeader {
-	width:320px;
+	width:100%;
 	box-shadow: none;
 }
 .wrapper,#page{
-	width:320px;
+	width:100%;
 }
 
 	
