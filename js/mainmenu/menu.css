@@ -165,8 +165,11 @@ font-weight: normal;
 
 @media (max-width:999px)
 {
+    .navbar-collapse{
+        position: absoulte;
+    }
 
-
+    navbar-collapse-1
 .list-unstyled a {
     color: #BBBBBB;
 }
@@ -303,6 +306,11 @@ margin-top: 104px;
 }
 
 @media (max-width: 999px) {
+    #navbar-collapse-1{
+        position:absolute;
+        margin-left: 0;
+        margin-right: 0;
+    }
     .navbar-collapse.pull-right {
         width: 100%;
         /*float: none !important;*/
@@ -451,12 +459,19 @@ color: #575757;
     border: 0px solid transparent;
     border-radius: 0;
     margin-left: 15px;
-    background: #eee;;
+    background: transparent;
 	cursor: pointer;
 }
+.navbar-header{
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    right: 0;
+}
+
 .navbar-toggle > span {Color:#575757;}
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
- background-color: #eee;;
+ background-color: transparent;
 }
 .navbar-collapse {border-top: 0;}
 
@@ -647,13 +662,18 @@ border-bottom-color: #fff;
 
 @media only screen and (max-width: 479px){
 	
-.navbar-default {margin-right: 3px;}
+.navbar-default {margin-right: 0px;}
 
 .navbar-nav>li>a i {
 	display: inherit;
 	text-align: left;
 	float: left;
 	margin: 5px 10px 0px 0px;
+}
+
+.container>.navbar-header, .container>.navbar-collapse {
+     margin-right: -15px; 
+     margin-left: -15px; 
 }
 
 }
